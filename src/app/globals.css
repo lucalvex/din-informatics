@@ -7,7 +7,18 @@
   --primary: #00648c;
   --primary-foreground: #ffffff;
 
+  --border-input: #8a9ca3;
   --font-sans: var(--font-lexend);
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
 }
 
 @theme inline {
@@ -15,6 +26,7 @@
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
   --color-primary-foreground: var(--primary-foreground);
+  --color-border-input: var(--border-input);
 
   --font-sans: var(--font-sans);
 }
@@ -84,12 +96,16 @@
     color: var(--primary-foreground);
   }
 
-  .bg-background {
-    background-color: var(--background);
+  .text-blue-green {
+    color: var(--primary);
   }
 
   .text-foreground {
     color: var(--foreground);
+  }
+
+  .border-input {
+    border: 1px solid var(--border-input);
   }
 }
 

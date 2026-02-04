@@ -32,10 +32,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" className={lexend.variable}>
-      <body className="min-h-screen flex flex-col bg-background text-foreground">
-        {children}
-        <Footer />
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

@@ -4,20 +4,14 @@ import Form from '@/app/components/ui/Form';
 import { EInputType } from '@/constants/input-type';
 import { User } from 'lucide-react';
 
-export default function LoginPage() {
+export default function ForgotPasswordPage() {
   const fields = [
     {
       name: 'email',
-      label: 'E-mail',
+      label:
+        'Insira seu e-mail institucional e sega as instruções enviadas para redefini-la',
       type: EInputType.EMAIL,
       placeholder: 'raXXXXXX@uem.br',
-      required: true,
-    },
-    {
-      name: 'password',
-      label: 'Senha',
-      type: EInputType.PASSWORD,
-      placeholder: '........',
       required: true,
     },
   ];
@@ -34,12 +28,7 @@ export default function LoginPage() {
       </div>
 
       <div className="card">
-        <Form
-          fields={fields}
-          submitLabel="Login"
-          showForgotButton={true}
-          onSubmit={handleLogin}
-        />
+        <Form fields={fields} submitLabel="Confirmar" onSubmit={handleLogin} />
       </div>
     </div>
   );
