@@ -57,7 +57,7 @@ export default function Form({
             <div key={field.name} className="flex flex-col gap-4 w-full">
               <label
                 htmlFor={field.name}
-                className="text-sm sm:text-base font-medium"
+                className="text-sm sm:text-base"
               >
                 {field.label}
               </label>
