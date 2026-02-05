@@ -7,6 +7,7 @@
   --primary: #00648c;
   --primary-foreground: #ffffff;
 
+  --background-gray: #e5e5e5;
   --border-input: #8a9ca3;
   --font-sans: var(--font-lexend);
 }
@@ -27,7 +28,7 @@ input[type='number'] {
   --color-primary: var(--primary);
   --color-primary-foreground: var(--primary-foreground);
   --color-border-input: var(--border-input);
-
+  --color-background-gray: var(--background-gray);
   --font-sans: var(--font-sans);
 }
 
@@ -98,6 +99,10 @@ input[type='number'] {
 
   .text-blue-green {
     color: var(--primary);
+  }
+
+  .text-blue-ligth {
+    color: #3099c2;
   }
 
   .text-foreground {
