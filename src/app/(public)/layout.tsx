@@ -4,7 +4,7 @@ import Navbar from '../components/common/NavBar';
 const navLinks = [
   { label: 'Registrar Usuário', href: '/register' },
   { label: 'Solicitações', href: '/solicitacoes' },
-  { label: 'Eventos', href: '/eventos' },
+  { label: 'Eventos', href: '/events' },
   { label: 'Agendamentos', href: '/agendamento' },
   { label: 'FAQ', href: '/faq' },
   { label: 'LOGIN', href: '/login' },

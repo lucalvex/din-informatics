@@ -11,10 +11,6 @@ type NavBarProps = {
 };
 
 export default function Navbar({ navLinks = [] }: NavBarProps) {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const hasLinks = navLinks.length > 0;
-
   return (
     <nav className="bg-primary text-on-primary shadow-md">
       <div

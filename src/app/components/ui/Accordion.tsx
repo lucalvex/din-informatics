@@ -15,7 +15,7 @@ export function Accordion({ title, children }: AccordionProps) {
     <div className="w-full border-2 rounded-4xl border-primary bg-primary">
       <button
         onClick={() => setOpen(!open)}
-        className="flex w-full items-center p-4 font-bold text-on-primary gap-3"
+        className="flex w-full items-center p-4 font-bold text-on-primary gap-3 cursor-pointer"
       >
         <ChevronDown
           className={`w-5 h-5 transition-transform duration-300 ${

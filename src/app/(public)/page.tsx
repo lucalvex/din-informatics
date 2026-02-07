@@ -25,7 +25,7 @@ export default function HomePage() {
         />
       </section>
 
-      <section className="flex flex-col items-center min-h-screen bg-linear-to-b from-[#00648C]/20 via-[#00648C]/10 to-transparent">
+      <section className="flex flex-col items-center min-h-screen p-6 sm:px-10 lg:flex-row lg:gap-32 bg-linear-to-b from-[#00648C]/20 via-[#00648C]/10 to-transparent">
         <div className="flex flex-col items-center my-10 gap-10">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-center">
             Fique por dentro dos próximos
