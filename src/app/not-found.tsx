@@ -5,8 +5,8 @@ import Image from 'next/image';
 const navLinks = [
   { label: 'Registrar Usuário', href: '/register' },
   { label: 'Solicitações', href: '/solicitacoes' },
-  { label: 'Eventos', href: '/eventos' },
-  { label: 'Agendamentos', href: '/agendamento' },
+  { label: 'Eventos', href: '/events' },
+  { label: 'Agendamentos', href: '/schedulings' },
   { label: 'FAQ', href: '/faq' },
   { label: 'LOGIN', href: '/login' },
 ];
